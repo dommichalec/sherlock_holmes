@@ -6,5 +6,5 @@ gem 'sinatra-contrib'
 gem 'erubis'
 
 group :production do
-  gem 'puma'
+  gem 'puma', '>= 4.3.8'
 end
